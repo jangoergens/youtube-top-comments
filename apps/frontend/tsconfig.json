@@ -1,15 +1,21 @@
 {
 	"extends": "./.svelte-kit/tsconfig.json",
 	"compilerOptions": {
-		"allowJs": true,
-		"checkJs": true,
+		"composite": false,
+		"declaration": true,
+		"declarationMap": true,
 		"esModuleInterop": true,
 		"forceConsistentCasingInFileNames": true,
+		"inlineSources": false,
+		"noUnusedLocals": false,
+		"noUnusedParameters": false,
 		"resolveJsonModule": true,
+		"preserveWatchOutput": true,
 		"skipLibCheck": true,
 		"sourceMap": true,
 		"strict": true
 	}
+	// "exclude": ["./node_modules/**", ".svelte-kit/[!ambient.d.ts]**", "./.turbo/**", "./.vercel/**"]
 	// Path aliases are handled by https://kit.svelte.dev/docs/configuration#alias
 	//
 	// If you want to overwrite includes/excludes, make sure to copy over the relevant includes/excludes
