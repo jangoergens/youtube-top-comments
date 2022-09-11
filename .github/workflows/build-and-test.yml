@@ -35,6 +35,12 @@ jobs:
       - name: Build
         run: pnpm build
 
+      - name: Lint
+        run: pnpm lint
+
+      - name: Typecheck
+        run: pnpm check
+
       - name: Install Playwright Browsers
         run: npx playwright install chromium
 
