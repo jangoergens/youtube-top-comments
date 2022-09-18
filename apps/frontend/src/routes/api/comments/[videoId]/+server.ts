@@ -9,10 +9,14 @@ export async function GET({ params }: RequestEvent) {
 		`https://www.googleapis.com/youtube/v3/commentThreads?part=snippet&videoId=${params.videoId}&key=${apiKey}&textFormat=plainText&maxResults=100`
 	);
 
-	const commentThreads: YoutubeCommentThreads = await response.json();
-	const topLevelComments = commentThreads.items.map(
-		(comment) => comment.snippet.topLevelComment.snippet
-	);
+	if (response.ok) {
+		const commentThreads: YoutubeCommentThreads = await response.json();
+		const topLevelComments = commentThreads.items.map(
+			(comment) => comment.snippet.topLevelComment.snippet
+		);
 
-	return new Response(JSON.stringify(topLevelComments));
+		return new Response(JSON.stringify(topLevelComments));
+	} else {
+		return new Response(JSON.stringify(response.text()));
+	}
 }
