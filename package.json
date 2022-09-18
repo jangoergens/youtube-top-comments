@@ -12,7 +12,8 @@
     "start": "turbo run start --parallel",
     "format": "prettier --write \"**/*.{ts,tsx,md}\"",
     "lint": "turbo run lint",
-    "test": "turbo run test"
+    "test": "turbo run test",
+    "all": "git pull --rebase && pnpm install && pnpm build && pnpm check && pnpm format && pnpm lint && pnpm test"
   },
   "devDependencies": {
     "prettier": "latest",
