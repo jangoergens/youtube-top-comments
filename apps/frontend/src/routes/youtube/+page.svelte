@@ -23,6 +23,7 @@
 		<input type="text" bind:value={videoURL} />
 		<button type="submit">Search</button>
 	</form>
+	<p>As an example, use this url: https://www.youtube.com/watch?v=EngW7tLk6R8</p>
 </div>
 
 <style>
