@@ -1,0 +1,74 @@
+{
+	"kind": "youtube#commentThreadListResponse",
+	"etag": "8DdB6Enu2JG2SALo8yeI2K--5Hc",
+	"pageInfo": {
+		"totalResults": 2,
+		"resultsPerPage": 100
+	},
+	"items": [
+		{
+			"kind": "youtube#commentThread",
+			"etag": "ibpH3tU-zeo4ihtcx-V99E9pgQA",
+			"id": "Ugw40v6JFlrD41BYgyt4AaABAg",
+			"snippet": {
+				"videoId": "Y4iXIdg8b10",
+				"topLevelComment": {
+					"kind": "youtube#comment",
+					"etag": "XbJ8JHJrU4_bha7EE6SR_tkJF5g",
+					"id": "Ugw40v6JFlrD41BYgyt4AaABAg",
+					"snippet": {
+						"videoId": "Y4iXIdg8b10",
+						"textDisplay": "Darf ich eine kurze Videosquenz in einem Video verarbeiten ?\nIst dür ein Uni Projekt",
+						"textOriginal": "Darf ich eine kurze Videosquenz in einem Video verarbeiten ?\nIst dür ein Uni Projekt",
+						"authorDisplayName": "Calciumchlorid",
+						"authorProfileImageUrl": "https://yt3.ggpht.com/ytc/AMLnZu8sFRkDKnyF1aFgyilTQyE9J5ejeI6lzvM15E9J=s48-c-k-c0x00ffffff-no-rj",
+						"authorChannelUrl": "http://www.youtube.com/channel/UClLFg97nBIWbLdT2VZPQELg",
+						"authorChannelId": {
+							"value": "UClLFg97nBIWbLdT2VZPQELg"
+						},
+						"canRate": true,
+						"viewerRating": "none",
+						"likeCount": 0,
+						"publishedAt": "2019-08-17T09:22:07Z",
+						"updatedAt": "2019-08-17T09:22:07Z"
+					}
+				},
+				"canReply": true,
+				"totalReplyCount": 2,
+				"isPublic": true
+			}
+		},
+		{
+			"kind": "youtube#commentThread",
+			"etag": "JjkxAuFq6XRik4UTquj9cGe3ilo",
+			"id": "Ugx9c-MgD7T42cy4gDd4AaABAg",
+			"snippet": {
+				"videoId": "Y4iXIdg8b10",
+				"topLevelComment": {
+					"kind": "youtube#comment",
+					"etag": "dG-qbI2jZlLPuFiczERqwYDlPsg",
+					"id": "Ugx9c-MgD7T42cy4gDd4AaABAg",
+					"snippet": {
+						"videoId": "Y4iXIdg8b10",
+						"textDisplay": "Welche Drohne ist zum Einsatz gekommen ?",
+						"textOriginal": "Welche Drohne ist zum Einsatz gekommen ?",
+						"authorDisplayName": "Schoko-PetraHDDD",
+						"authorProfileImageUrl": "https://yt3.ggpht.com/ytc/AMLnZu8AARvpRY0ztgWKBFFKLj9ewyrHKa5VsE1k=s48-c-k-c0x00ffffff-no-rj",
+						"authorChannelUrl": "http://www.youtube.com/channel/UCgV0uu8xZaMvHh2KCkuxM9Q",
+						"authorChannelId": {
+							"value": "UCgV0uu8xZaMvHh2KCkuxM9Q"
+						},
+						"canRate": true,
+						"viewerRating": "none",
+						"likeCount": 1,
+						"publishedAt": "2017-12-03T19:26:02Z",
+						"updatedAt": "2017-12-03T19:26:02Z"
+					}
+				},
+				"canReply": true,
+				"totalReplyCount": 1,
+				"isPublic": true
+			}
+		}
+	]
+}
